@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title:first-letter {
+
+display: block;
+float:left;
+font-size: 2.4em;
+
+}
+
+blockquote {
+background:url(../gambar/quote.gif) no-repeat;
+color:#555;
+font:normal 1.4em serif;
+padding-left: 22px;
+}
+
+#menu {
+	background:url(../gambar/bgcontent.gif);
+	padding:25px;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:#3366FF;
+	background-size: 93%;
+	
+}
+#menu a {
+
+color:#444;
+
+}
+
+#top-image {
+	height:250px;
+	background-image: url(../gambar/head_top_logo-hobbit.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:700px;
+	
+}
+
+
+
+.divider {
+height:20px;
+background-image:url(../gambar/divider.gif);
+background-repeat: no-repeat;
+margin:20px auto;
+width:560px;
+}
+
+#wrapper {
+	background-image:url(../gambar/bgcontainer.jpg);
+	background-repeat: repeat-y;
+	background-position:center;
+	background-size:100%;
+		
+		}
+#content {
+padding:45px;
+color:#444;
+
+		}
+#footer {
+background-image:url(../gambar/bgfooter.gif);
+background-repeat:no-repeat;
+background-position: center;
+background-size: 93%;
+height:30px;
+	}
